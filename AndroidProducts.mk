@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_berlin.mk
+    $(LOCAL_DIR)/evolution_berlin.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_berlin-user \
-    aosp_berlin-userdebug \
-    aosp_berlin-eng
+    evolution_berlin-user \
+    evolution_berlin-userdebug \
+    evolution_berlin-eng
