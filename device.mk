@@ -36,7 +36,8 @@ PRODUCT_PACKAGES += \
     FrameworksResBerlin \
     CustomSystemUIBerlin \
     SettingsProviderResBerlin \
-    SystemUIResBerlin
+    SystemUIResBerlin \
+    WifiResBerlin
 
 # Audio
 PRODUCT_COPY_FILES += \
