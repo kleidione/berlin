@@ -37,6 +37,7 @@ PRODUCT_PACKAGES += \
     CustomSystemUIBerlin \
     SettingsProviderResBerlin \
     SystemUIResBerlin \
+    NfcResBerlin \
     WifiResBerlin
 
 # Audio
