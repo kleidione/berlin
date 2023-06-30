@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_berlin.mk
+    $(LOCAL_DIR)/arrow_berlin.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_berlin-user \
-    aosp_berlin-userdebug \
-    aosp_berlin-eng
+    arrow_berlin-user \
+    arrow_berlin-userdebug \
+    arrow_berlin-eng

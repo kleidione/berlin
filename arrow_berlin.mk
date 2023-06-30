@@ -21,14 +21,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from berlin device
 $(call inherit-product, device/motorola/berlin/device.mk)
 
-# Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_USES_AOSP_RECOVERY := true
-TARGET_SUPPORTS_QUICK_TAP := true
 
-PRODUCT_NAME := aosp_berlin
+# Inherit some common arrow stuff.
+$(call inherit-product, vendor/arrow/config/common.mk)
+
+PRODUCT_NAME := arrow_berlin
 PRODUCT_DEVICE := berlin
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
@@ -41,3 +41,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="berlin_global-user 12 S1RGS32.53-18-22-33 c29562-b008c release-keys"
 
 BUILD_FINGERPRINT := motorola/berlin_global/berlin:12/S1RGS32.53-18-22-33/c29562-b008c:user/release-keys
+
+
+DEVICE_MAINTAINER := Kleidione Freitas
